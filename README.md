@@ -38,12 +38,32 @@ $ yarn install
 # development
 $ yarn run start
 
-# watch mode
+# watch mode (hot reload)
 $ yarn run start:dev
+
 
 # production mode
 $ yarn run start:prod
 ```
+
+
+
+
+## DB
+
+```bash
+
+# migrasi
+$ npx prisma migrate dev --name init
+
+# generate
+$ npx prisma generate
+
+# TUTORIAL
+$ https://docs.nestjs.com/recipes/prisma
+
+```
+
 
 ## Test
 
